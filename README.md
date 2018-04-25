@@ -1,6 +1,6 @@
 # Environment
-- Spring Boot 1.5.8.RELEASE
-- Spring Cloud Dalston.SR4
+- Spring Boot 1.5.10.RELEASE
+- Spring Cloud Edgware.SR3
 
 - spring boot security
 - spring cloud starter oauth2
@@ -30,7 +30,7 @@ curl -s -X POST localhost:8081/oauth/token --user custom-client: -d grant_type=c
 }
 ````
 
-__Save access token to TOKEN vaiable.__
+__Save access token to TOKEN vaiable.__ Be careful not to insert a newline(CRLF, LF) character in the middle.
 ````bash
 TOKEN=yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiY3VzdG9tLXJlc291cmNlIl0sInVzZXJfbmFtZSI6InRlc3RAdGVzdC5jb20iLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiLCJ0cnVzdCJdLCJleHAiOjE1MTA4NDYxODEsImF1dGhvcml0aWVzIjpbIlVTRVIiXSwianRpIjoiMTIwMzZiMDItMmVjYy00NWRmLTg2ZTAtMjcxOTdlOTJmMTRmIiwiY2xpZW50X2lkIjoiY3VzdG9tLWNsaWVudCJ9.1BI5OeU70z1Ug8W62IuI2bTIbZfBTvE8V7dWr5wGsOQ
 ````
